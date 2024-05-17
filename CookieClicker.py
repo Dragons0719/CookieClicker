@@ -1,3 +1,7 @@
+# Cookie Clicker
+# Created by Elijah Rotenberger
+# Last Edited 5/17/2024
+
 import pygame
 import math
 
