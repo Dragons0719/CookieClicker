@@ -1,4 +1,4 @@
 # Must pip install pygame before running
 
-# Paste this into the terminal before starting: pip install pygame
+# Paste this into the command terminal before starting: pip install pygame
 
