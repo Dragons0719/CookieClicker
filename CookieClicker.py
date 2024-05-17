@@ -25,12 +25,12 @@ bakery_price = 1000
 factory_price = 10000
 mine_price = 100000
 reactor_price = 1000000
-icon_image = pygame.image.load('Pictures\Cookie_icon.ico')
+icon_image = pygame.image.load('CookieClicker-main\Pictures\Cookie_icon.ico')
 pygame.display.set_icon(icon_image)
 screen = pygame.display.set_mode([1500, 843.75])
 pygame.display.set_caption('Cookie Clicker')
-BACKGROUND_IMG = pygame.image.load("Pictures/Background.png").convert()
-COOKIE_IMG = pygame.image.load("Pictures/Cookie.png").convert_alpha()
+BACKGROUND_IMG = pygame.image.load("CookieClicker-main\Pictures\Background.png").convert()
+COOKIE_IMG = pygame.image.load("CookieClicker-main\Pictures\Cookie.png").convert_alpha()
 COOKIE = pygame.transform.scale(COOKIE_IMG, (400, 400))
 cookie_rect = COOKIE.get_rect(topleft=(214, 245))
 rectangle_surface = pygame.Surface((636, 100), pygame.SRCALPHA)
@@ -39,7 +39,7 @@ pygame.draw.rect(rectangle_surface, rect_color, rectangle_surface.get_rect())
 rectangle_surface2 = pygame.Surface((900, 843.75), pygame.SRCALPHA)
 rect_color2 = (0, 0, 0, 175)  # Transparent black
 pygame.draw.rect(rectangle_surface2, rect_color2, rectangle_surface2.get_rect())
-font_path = "Other Resources/Patrick_Hand/PatrickHand-Regular.ttf"
+font_path = "CookieClicker-main\Other Resources\Patrick_Hand\PatrickHand-Regular.ttf"
 font_size = 65
 font_size2 = 30
 font = pygame.font.Font(font_path, font_size)
@@ -48,13 +48,13 @@ white_color = (255, 255, 255)
 button_width = 550
 button_height = 130
 button_color = (100, 100, 100, 175)
-CURSOR_IMG = pygame.image.load("Pictures/cursor.png").convert_alpha()
+CURSOR_IMG = pygame.image.load("CookieClicker-main\\Pictures\\cursor.png").convert_alpha()
 CURSOR_IMG = pygame.transform.scale(CURSOR_IMG, (80, 80))
-GRANDMA_IMG = pygame.image.load("Pictures/grandma.png").convert_alpha()
-BAKERY_IMG = pygame.image.load("Pictures/bakery.png").convert_alpha()
-FACTORY_IMG = pygame.image.load("Pictures/factory.png").convert_alpha()
-MINE_IMG = pygame.image.load("Pictures/mine.png").convert_alpha()
-REACTOR_IMG = pygame.image.load("Pictures/reactor.png").convert_alpha()
+GRANDMA_IMG = pygame.image.load("CookieClicker-main\\Pictures\\grandma.png").convert_alpha()
+BAKERY_IMG = pygame.image.load("CookieClicker-main\\Pictures\\bakery.png").convert_alpha()
+FACTORY_IMG = pygame.image.load("CookieClicker-main\\Pictures\\factory.png").convert_alpha()
+MINE_IMG = pygame.image.load("CookieClicker-main\\Pictures\\mine.png").convert_alpha()
+REACTOR_IMG = pygame.image.load("CookieClicker-main\\Pictures\\reactor.png").convert_alpha()
 buttons = []
 button_images = [CURSOR_IMG, GRANDMA_IMG, BAKERY_IMG, FACTORY_IMG, MINE_IMG, REACTOR_IMG]
 button_texts = ["Cursor", "Grandma", "Bakery", "Factory", "Mine", "Cooklier Reactor"]
